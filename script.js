@@ -29,7 +29,11 @@ function playMusic(character){
         case 'l':
             l= new Audio('./sounds/tom-4.mp3');
             l.play();
-            break;        
+            break;
+        default:
+            d= new Audio('./sounds/kick-bass.mp3');
+            d.play();
+            break;      
     }
 
 }
